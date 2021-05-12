@@ -11,7 +11,7 @@
 <body>
 
     <main id="root">
-        <ul>
+        <ul v-if="emailList.length == cicleTimes ">
             <li v-for="email in emailList">
                 {{email}}
             </li>
